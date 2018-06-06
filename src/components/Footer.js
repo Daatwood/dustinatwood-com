@@ -8,6 +8,7 @@ import social from '../routes/social';
 
 const styles = (theme) => ({
 	footer: {
+		marginTop: theme.spacing.unit * 4,
 		backgroundColor: '#e1e2e1',
 		position: 'fixed',
 		left: 0,
@@ -15,7 +16,7 @@ const styles = (theme) => ({
 		width: '100%',
 		paddingLeft: theme.spacing.unit * 4,
 		paddingRight: theme.spacing.unit * 4,
-		paddingTop: theme.spacing.unit * 6,
+		paddingTop: theme.spacing.unit * 4,
 		paddingBottom: theme.spacing.unit * 2
 	},
 	padding: {

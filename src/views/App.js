@@ -33,7 +33,7 @@ class App extends Component {
 					<MuiThemeProvider theme={theme}>
 						<div>
 							<Navbar links={routes} />
-							<div className="container">
+							<div className="container" style={{ marginBottom: '120px' }}>
 								<Switch>
 									{routes.map((prop, key) => {
 										return <Route exact path={prop.path} key={key} component={prop.component} />;
