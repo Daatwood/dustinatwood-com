@@ -1,10 +1,12 @@
 import 'materialize-css/dist/css/materialize.min.css';
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import classNames from 'classnames';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import routes from '../routes';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import NoMatch from '../components/NoMatch';
 
 const theme = createMuiTheme({
 	palette: {
@@ -32,10 +34,14 @@ class App extends Component {
 						<div>
 							<Navbar links={routes} />
 							<div className="container">
-								{routes.map((prop, key) => {
-									return <Route exact path={prop.path} key={key} component={prop.component} />;
-								})}
+								<Switch>
+									{routes.map((prop, key) => {
+										return <Route exact path={prop.path} key={key} component={prop.component} />;
+									})}
+									<Route component={NoMatch} />
+								</Switch>
 							</div>
+							<Footer links={routes} />
 						</div>
 					</MuiThemeProvider>
 				</BrowserRouter>

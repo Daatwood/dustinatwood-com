@@ -60,11 +60,11 @@ const About = ({ classes }) => {
 					<Paper className={classes.padding}>
 						<Typography variant="body1" className={classes.body}>
 							I'm Dustin Atwood, a Software Engineer with a passion for programming. I love to learn and
-							discover things about technology including Ruby, Javascript, HTML and CSS. Technology is
-							continually changing and I strive to challenge myself to stay up to date in the lastest
-							releases and upcoming trends. When I'm not writing instructions for invisible robots, I
-							enjoy cooking, attending concerts, traveling, and spending time in the great outdoors with
-							my daughter.
+							discover all things Ruby, Javascript, HTML and CSS. I found coding a great way to express
+							myself. With technology is always moving forward and continually changing, I am always
+							learning about the new trends and staying up to date in the lastest releases. When I'm not
+							writing code, I enjoy cooking 🌮, attending concerts 🎶, traveling 🏍, and spending time
+							with my daughter in the great outdoors 🏔.
 						</Typography>
 					</Paper>
 				</Grid>

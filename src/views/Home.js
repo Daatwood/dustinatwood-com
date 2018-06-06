@@ -35,7 +35,7 @@ class Home extends Component {
 	render() {
 		const { classes } = this.props;
 		return (
-			<div className>
+			<div>
 				<Grid container spacing={24}>
 					<Grid item xs={12}>
 						<Typography className={classes.heading} variant="display4">
