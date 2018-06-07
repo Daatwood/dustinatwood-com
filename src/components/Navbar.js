@@ -18,7 +18,7 @@ class Navbar extends Component {
 	};
 
 	renderLinks() {
-		const { links, classes } = this.props;
+		const { links } = this.props;
 		return links.map((route, key) => {
 			return <NavbarLink key={key} {...route} />;
 		});

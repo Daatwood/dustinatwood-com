@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography } from '@material-ui/core';
 
-const NoMatch = ({ props }) => {
+const NoMatch = () => {
 	return (
 		<div style={{ textAlign: 'center' }}>
 			<Typography variant="display4">404</Typography>

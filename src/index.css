@@ -12,6 +12,21 @@ html {
 	-ms-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 }
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#root {
+	min-height: 100%;
+	position: relative;
+}
+
+#container {
+	padding-bottom: 118px; /* Height of the footer */
+}
 
 /* Fixes double underline in TextFields */
 input:not([type]),
