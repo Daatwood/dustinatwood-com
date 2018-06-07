@@ -21,6 +21,6 @@
 		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject",
 		"predeploy": "del-cli build && npm run build",
-		"deploy": "npm run predeploy && deploy-aws-s3-cloudfront --source=./build/ --bucket dustinatwood.com --distribution E2L5FOV8OCYUU1 --profile default"
+		"deploy": "npm run predeploy && deploy-aws-s3-cloudfront --source=./build/ --bucket dustinatwood.com --distribution E2L5FOV8OCYUU1 --profile default --exclude .DS_Store"
 	}
 }
