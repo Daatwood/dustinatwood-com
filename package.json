@@ -1,7 +1,9 @@
 {
-	"homepage": "http://daatwood.github.io",
+	"homepage": "https://github.com/Daatwood/dustinatwood-com",
 	"name": "dustinatwood-com",
 	"version": "0.1.0",
+	"license": "MIT",
+	"author": "Dustin Atwood (http://dustinatwood.com)",
 	"private": true,
 	"dependencies": {
 		"@material-ui/core": "^1.1.0",
