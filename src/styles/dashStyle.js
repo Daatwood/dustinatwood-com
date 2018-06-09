@@ -4,7 +4,8 @@ const dashStyle = (theme) => ({
 		height: theme.spacing.unit,
 		backgroundColor: theme.palette.secondary.light,
 		borderRadius: theme.spacing.unit * 2,
-		marginTop: theme.spacing.unit
+		marginTop: theme.spacing.unit,
+		marginBottom: theme.spacing.unit * 4
 	}
 });
 export default dashStyle;
