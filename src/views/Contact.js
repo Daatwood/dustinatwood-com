@@ -12,6 +12,7 @@ const Contact = ({ classes }) => {
 			<Fade in timeout={1500}>
 				<Paper className={classes.padding}>
 					<form action="https://formspree.io/atwood.dustin@gmail.com" method="POST" autoComplete="off">
+						<input type="hidden" name="_next" value="/thanks" />
 						<Grid container direction="column" justify="center" alignItems="stretch">
 							{formFields.map(({ label, name, placeholder, fieldType, multiline }) => {
 								return (

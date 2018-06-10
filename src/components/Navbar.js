@@ -20,7 +20,7 @@ class Navbar extends Component {
 	renderLinks() {
 		const { links } = this.props;
 		return links.map((route, key) => {
-			return <NavbarLink key={key} {...route} />;
+			if (!route.hidden) return <NavbarLink key={key} {...route} />;
 		});
 	}
 

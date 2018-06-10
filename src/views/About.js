@@ -19,8 +19,8 @@ const About = ({ classes }) => {
 				<Grid item className={classes.padding}>
 					<Tagline>Coding is my creative outlet to the world.</Tagline>
 				</Grid>
-				<Slide in direction="right" timeout={1500}>
-					<Grid item>
+				<Grid item>
+					<Slide in direction="right" timeout={1500}>
 						<Paper className={classes.padding}>
 							<Typography variant="body1" className={classes.body}>
 								I'm Dustin Atwood, a Software Engineer with a passion for programming. I love to learn
@@ -31,8 +31,8 @@ const About = ({ classes }) => {
 								spending time with my daughter in the great outdoors 🏔.
 							</Typography>
 						</Paper>
-					</Grid>
-				</Slide>
+					</Slide>
+				</Grid>
 			</Grid>
 		</div>
 	);
