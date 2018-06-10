@@ -6,7 +6,10 @@ const Thanks = () => {
 	return (
 		<div>
 			<Header>Contact Me</Header>
-			<Typography variant="title">Message has been received, thank you.</Typography>
+			<Typography variant="title">Thank you for getting in touch!</Typography>
+			<Typography variant="subheading">
+				I appreciate you contacting me, I will get back to you shortly. Have a great day!
+			</Typography>
 		</div>
 	);
 };

@@ -28,15 +28,16 @@ const Footer = ({ classes, links }) => {
 						</Grid>
 						<Grid item>
 							{links.map((route, key) => {
-								if (!route.hidden)
-									return (
-										<Link
-											key={key}
-											to={route.path}
-											className={classNames(classes.link, classes.padding)}>
-											{route.name}
-										</Link>
-									);
+								return !route.hidden ? (
+									<Link
+										key={key}
+										to={route.path}
+										className={classNames(classes.link, classes.padding)}>
+										{route.name}
+									</Link>
+								) : (
+									''
+								);
 							})}
 						</Grid>
 					</Grid>
