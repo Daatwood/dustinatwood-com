@@ -7,6 +7,7 @@ import footerStyle from '../styles/footerStyle';
 import social from '../routes/social';
 
 const Footer = ({ classes, links }) => {
+	const currentYear = new Date().getFullYear();
 	return (
 		<div>
 			<Slide in direction="up" timeout={700}>
@@ -42,7 +43,7 @@ const Footer = ({ classes, links }) => {
 						</Grid>
 					</Grid>
 					<Typography variant="caption" style={{ textAlign: 'center' }}>
-						© Copyright 2018. Dustin Atwood
+						© Copyright {currentYear}. Dustin Atwood
 					</Typography>
 				</footer>
 			</Slide>

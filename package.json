@@ -10,6 +10,7 @@
 		"axios": "^0.18.0",
 		"del-cli": "^1.1.0",
 		"deploy-aws-s3-cloudfront": "^0.2.9",
+		"dotenv": "^8.2.0",
 		"materialize-css": "^0.100.2",
 		"react": "^16.4.0",
 		"react-dom": "^16.4.0",
@@ -22,6 +23,6 @@
 		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject",
 		"predeploy": "del-cli build && npm run build",
-		"deploy": "npm run predeploy && deploy-aws-s3-cloudfront --source=./build/ --bucket dustinatwood.com --distribution E2L5FOV8OCYUU1 --profile default --exclude .DS_Store"
+		"deploy": "source .env && npm run predeploy && deploy-aws-s3-cloudfront --source=./build/ --bucket $SITE --distribution $DIS --profile $PROFILE --exclude .DS_Store"
 	}
 }
