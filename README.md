@@ -1,7 +1,7 @@
 # DustinAtwood.com
 [![GitHub Super-Linter](https://github.com/Daatwood/dustinatwood-com/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
-My hello to the world
+My hello to the world.
 
 ## Getting Started
 
