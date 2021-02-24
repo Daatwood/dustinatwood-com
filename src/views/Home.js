@@ -22,7 +22,7 @@ const Home = ({ classes }) => {
 								{' about me '}
 							</Link>to learn more or feel free to
 							<Link to="/contact" className={classes.link}>
-								{' contact me! '}
+								{' contact me. '}
 							</Link>
 						</Typography>
 					</Fade>
