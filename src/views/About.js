@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Tagline from '../components/Tagline';
 import Emj from '../components/Emj';
 import aboutStyle from '../styles/aboutStyle';
-import daughter_and_I from '../images/daughter_and_I.jpg';
+import wild_macbook from '../images/wild_macbook.png';
 
 const About = ({ classes }) => {
 	return (
@@ -14,7 +14,7 @@ const About = ({ classes }) => {
 			<Grid container direction="column" justify="center" alignItems="center">
 				<Grid item className={classes.padding}>
 					<Zoom in timeout={800}>
-						<Avatar alt="my daughter and I" src={daughter_and_I} className={classes.avatar} />
+						<Avatar alt="macbook pro on tree stump" src={wild_macbook} className={classes.avatar} />
 					</Zoom>
 				</Grid>
 				<Grid item className={classes.padding}>
@@ -24,13 +24,13 @@ const About = ({ classes }) => {
 					<Slide in direction="right" timeout={1500}>
 						<Paper className={classes.padding}>
 							<Typography variant="body1" className={classes.body}>
-								I'm Dustin Atwood, a Software Engineer with a passion for programming<Emj emoji=" 💻" label="computer" />.
+								I'm a Software Engineer with a passion for programming<Emj emoji=" 💻" label="computer" />.
 								I love to learn and discover all things Ruby, Javascript, HTML and CSS. I found coding a
 								great way to express myself. With technology always moving forward and continually
 								changing, I am always learning about the new trends and staying up to date in the
 								lastest releases. When I'm not writing code, I enjoy cooking<Emj emoji=" 🌮" label="taco" />,
 								attending concerts<Emj emoji=" 🎶" label="music" />, traveling<Emj emoji=" 🏍" label="motorcycle" />,
-								and spending time with my daughter in the great outdoors
+								and hiking in the great outdoors
 								<Emj emoji=" 🏔" label="mountains" />.
 							</Typography>
 						</Paper>

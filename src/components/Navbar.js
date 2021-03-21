@@ -5,7 +5,7 @@ import { AppBar, Toolbar, Typography, Avatar, Drawer, IconButton, Hidden } from 
 import { Menu as MenuIcon, Close } from '@material-ui/icons';
 import NavbarLink from './NavbarLink';
 import navbarStyle from '../styles/navbarStyle';
-import myself from '../images/myself.jpg';
+import myself from '../images/myself.png';
 
 class Navbar extends Component {
 	state = {
