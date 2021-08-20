@@ -23,6 +23,6 @@
 		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject",
 		"predeploy": "del-cli build && npm run build",
-		"deploy": "source .env && npm run predeploy && deploy-aws-s3-cloudfront --source=./build/ --bucket $SITE --distribution $DIS --profile $PROFILE --exclude .DS_Store"
+		"deploy": "source .env && npm run predeploy && deploy-aws-s3-cloudfront --source=./build/ --bucket $SITE --distribution $DIS --exclude .DS_Store"
 	}
 }
