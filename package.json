@@ -1,7 +1,7 @@
 {
 	"name": "dustinatwood-com",
 	"version": "0.1.0",
-	"license": "MIT",
+	"license": "GNU",
 	"author": "Dustin Atwood (http://dustinatwood.com)",
 	"private": true,
 	"dependencies": {

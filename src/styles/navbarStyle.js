@@ -12,7 +12,8 @@ const navbarStyle = (theme) => ({
 		alignItems: 'center',
 		flexFlow: 'row nowrap',
 		justifyContent: 'flex-start',
-		position: 'relative'
+		position: 'relative',
+		opacity: '90%'
 	},
 	container: {
 		paddingRight: '15px',

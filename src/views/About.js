@@ -18,11 +18,11 @@ const About = ({ classes }) => {
 					</Zoom>
 				</Grid>
 				<Grid item className={classes.padding}>
-					<Tagline>Coding is my creative outlet to the world.</Tagline>
+					<Tagline className={classes.tagline}>Coding is my creative outlet to the world.</Tagline>
 				</Grid>
 				<Grid item>
 					<Slide in direction="right" timeout={1500}>
-						<Paper className={classes.padding}>
+						<Paper className={classes.frame}>
 							<Typography variant="body1" className={classes.body}>
 								I'm a Software Engineer with a passion for programming<Emj emoji=" 💻" label="computer" />.
 								I love to learn and discover all things Ruby, Javascript, HTML and CSS. I found coding a
@@ -30,8 +30,8 @@ const About = ({ classes }) => {
 								changing, I am always learning about the new trends and staying up to date in the
 								lastest releases. When I'm not writing code, I enjoy cooking<Emj emoji=" 🌮" label="taco" />,
 								attending concerts<Emj emoji=" 🎶" label="music" />, traveling<Emj emoji=" 🏍" label="motorcycle" />,
-								and hiking in the great outdoors
-								<Emj emoji=" 🏔" label="mountains" />.
+								and hiking in the great outdoors.
+								<Emj emoji=" 🏔" label="mountains" />
 							</Typography>
 						</Paper>
 					</Slide>

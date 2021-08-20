@@ -17,6 +17,9 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	color: #d3d3d3;
+	background: url('./images/night-sky.png');
+	/* src: https://i.ibb.co/2nwZyv7/night-sky-005-a-star-field-twinkles-in-a-night-sky-loop-hf3owvebl-thumbnail-full01.png */
 }
 
 #root {

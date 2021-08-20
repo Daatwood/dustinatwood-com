@@ -1,0 +1,10 @@
+
+[
+  {
+    "name": "mealmixtures",
+    "label": "Meal Mixtures",
+    "desc": "simple web app solution for meal planning",
+    "tech": "materialui,javascript,react,aws,serverless",
+    "link": "https://api.daa.best/recipes"
+  }
+]

@@ -9,7 +9,8 @@ const footerStyle = (theme) => ({
 		paddingLeft: theme.spacing.unit * 4,
 		paddingRight: theme.spacing.unit * 4,
 		paddingTop: theme.spacing.unit * 4,
-		paddingBottom: theme.spacing.unit * 2
+		paddingBottom: theme.spacing.unit * 2,
+		opacity: '80%'
 	},
 	padding: {
 		padding: theme.spacing.unit * 2

@@ -13,7 +13,11 @@ const aboutStyle = (theme) => ({
 	},
 	body: {
 		fontFamily: [ 'Nunito Sans', 'sans-serif' ],
-		fontSize: '1rem'
+		fontSize: '1rem',
+	},
+	frame: {
+		opacity: '75%',
+		padding: theme.spacing.unit * 2
 	}
 });
 export default aboutStyle;

@@ -6,6 +6,9 @@ const contactStyle = (theme) => ({
 		'&:focus': {
 			backgroundColor: theme.palette.secondary.light
 		}
+	},
+	body: {
+		color: '#d3d3d3'
 	}
 });
 export default contactStyle;
