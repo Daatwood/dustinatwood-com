@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Languages",
+    "list": [
+      "Ruby", "Javascript","CSS/SCSS", "HTML/HAML", "Java", "C#", "SQL"
+    ]
+  },
+  {
+    "name": "Frameworks",
+    "list": [
+      "Ruby on Rails", "React/Redux", "NodeJS", "ExpressJS", "Bootstrap", "MaterialUI", "JQuery"
+    ]
+  },
+  {
+    "name": "Tools",
+    "list": [
+      "Rubocop", "Git", "Chrome Dev Tools", "Postman", "VS Code", "Sketchup", "AWS"
+    ]
+  }
+]
