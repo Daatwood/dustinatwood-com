@@ -6,9 +6,7 @@ import homeStyle from '../styles/homeStyle';
 import { List, ListItem } from '@material-ui/core'
 import dataSkills from '../data/skills.json'
 
-
 const Home = ({ classes }) => {
-
 	let skillChart = dataSkills.map((data) => 
 		<div key={data.name} className={classes.skillList} >
 			<div className={classes.skills}>
