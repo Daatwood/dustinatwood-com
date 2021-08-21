@@ -23,8 +23,8 @@
 		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject",
 		"predeploy": "del-cli build && npm run build",
-		"deploy": "source .env && npm run predeploy && npm run preupload && npm run upload",
+		"deploy": "source .env && npm run predeploy && npm run upload",
 		"preupload": "source .env && AWS_PROFILE=$AWS_PROFILE deploy-aws-s3-cloudfront install-soft-delete --source=./build/ --bucket $SITE --exclude .DS_Store",
-		"upload": "source .env && AWS_PROFILE=$AWS_PROFILE deploy-aws-s3-cloudfront --source=./build/ --bucket $SITE --distribution $DIS --exclude .DS_Store --non-interactive"
+		"upload": "source .env && AWS_PROFILE=$AWS_PROFILE deploy-aws-s3-cloudfront --source=./build/ --bucket $SITE --distribution $DIS --exclude .DS_Store --non-interactive --cache-control index.html:no-cache"
 	}
 }
