@@ -8,8 +8,6 @@
 		"@material-ui/core": "^1.1.0",
 		"@material-ui/icons": "^1.1.0",
 		"axios": "^0.18.0",
-		"del-cli": "^1.1.0",
-		"deploy-aws-s3-cloudfront": "^0.2.9",
 		"dotenv": "^8.2.0",
 		"materialize-css": "^0.100.2",
 		"react": "^16.4.0",
@@ -26,5 +24,9 @@
 		"deploy": "source .env && npm run predeploy && npm run upload",
 		"preupload": "source .env && AWS_PROFILE=$AWS_PROFILE deploy-aws-s3-cloudfront install-soft-delete --source=./build/ --bucket $SITE --exclude .DS_Store",
 		"upload": "source .env && AWS_PROFILE=$AWS_PROFILE deploy-aws-s3-cloudfront --source=./build/ --bucket $SITE --distribution $DIS --exclude .DS_Store --non-interactive --cache-control index.html:no-cache"
+	},
+	"devDependencies": {
+		"del-cli": "^4.0.1",
+		"deploy-aws-s3-cloudfront": "^3.4.2"
 	}
 }
