@@ -6,5 +6,12 @@
     "desc": "simple web app solution for meal planning",
     "tech": "materialui,javascript,react,aws,serverless",
     "link": "https://api.daa.best/recipes"
+  },
+  {
+    "name": "urlminify",
+    "label": "Url Minify",
+    "desc": "easy to use web app for url analytics",
+    "tech": "materialui,javascript,react,aws,serverless",
+    "link": "https://api.daa.best/39785f"
   }
 ]
