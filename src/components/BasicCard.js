@@ -11,7 +11,7 @@ import Zoom from '@material-ui/core/Zoom'
 
 const useStyles = (theme) => ({
   root: {
-    // maxWidth: 300,
+    maxWidth: 500,
     marginBottom: theme.spacing.unit
   },
   chips: {

@@ -1,17 +1,16 @@
-
 [
   {
     "name": "mealmixtures",
     "label": "Meal Mixtures",
     "desc": "simple web app solution for meal planning",
     "tech": "materialui,javascript,react,aws,serverless",
-    "link": "https://api.daa.best/recipes"
+    "link": "https://api.url2qr.com/recipes"
   },
   {
-    "name": "urlminify",
-    "label": "Url Minify",
-    "desc": "easy to use web app for url analytics",
+    "name": "url2qr",
+    "label": "Url 2 QR",
+    "desc": "easy convert an url to a QR with  analytics",
     "tech": "materialui,javascript,react,aws,serverless",
-    "link": "https://api.daa.best/url"
+    "link": "https://url2qr.com/"
   }
 ]
